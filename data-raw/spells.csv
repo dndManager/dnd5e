@@ -1,0 +1,847 @@
+class,level,spell
+bard,0,blade ward
+bard,0,dancing lights
+bard,0,friends
+bard,0,light
+bard,0,mage hand
+bard,0,mending
+bard,0,message
+bard,0,minor illusion
+bard,0,prestidigitation
+bard,0,true strike
+bard,0,vicious mockery
+bard,1,animal friendship
+bard,1,bane
+bard,1,charm person
+bard,1,comprehend languages
+bard,1,cure wounds
+bard,1,detect magic
+bard,1,disguise self
+bard,1,dissonant whispers
+bard,1,faerie fire
+bard,1,feather fall
+bard,1,healing word
+bard,1,heroism
+bard,1,identify
+bard,1,illusory script
+bard,1,longstrider
+bard,1,silent image
+bard,1,sleep
+bard,1,speak with animals
+bard,1,tasha's hideous laughter
+bard,1,thunderwave
+bard,1,unseen servant
+bard,2,animal messenger
+bard,2,blindness/deafness
+bard,2,calm emotions
+bard,2,cloud of daggers
+bard,2,crown of madness
+bard,2,detect thoughts
+bard,2,enhance ability
+bard,2,enthrall
+bard,2,heat metal
+bard,2,hold person
+bard,2,invisibility
+bard,2,knock
+bard,2,lesser restoration
+bard,2,locate animals or plants
+bard,2,locate object
+bard,2,magic mouth
+bard,2,phantasmal force
+bard,2,see invisibility
+bard,2,shatter
+bard,2,silence
+bard,2,suggestion
+bard,2,zone of truth
+bard,3,bestow curse
+bard,3,clairvoyance
+bard,3,dispel magic
+bard,3,fear
+bard,3,feign death
+bard,3,glyph of warding
+bard,3,hypnotic pattern
+bard,3,leomund's tiny hut
+bard,3,major image
+bard,3,nondetection
+bard,3,plant growth
+bard,3,sending
+bard,3,speak with dead
+bard,3,speak with plants
+bard,3,stinking cloud
+bard,3,tongues
+bard,4,compulsion
+bard,4,confusion
+bard,4,dimension door
+bard,4,freedom of movement
+bard,4,greater invisibility
+bard,4,hallucinatory terrain
+bard,4,locate creature
+bard,4,polymorph
+bard,5,animate objects
+bard,5,awaken
+bard,5,dominate person
+bard,5,dream
+bard,5,geas
+bard,5,greater restoration
+bard,5,hold monster
+bard,5,legend lore
+bard,5,mass cure wounds
+bard,5,mislead
+bard,5,modify memory
+bard,5,planar binding
+bard,5,raise dead
+bard,5,scrying
+bard,5,seeming
+bard,5,teleportation circle
+bard,6,eyebite
+bard,6,find the path
+bard,6,guards and wards
+bard,6,mass suggestion
+bard,6,otto's irresistible dance
+bard,6,programmed illusion
+bard,6,true seeing
+bard,7,etherealness
+bard,7,forcecage
+bard,7,mirage arcane
+bard,7,mordenkainen's magnificent mansion
+bard,7,mordenkainen's sword
+bard,7,project image
+bard,7,regenerate
+bard,7,resurrection
+bard,7,symbol
+bard,7,teleport
+bard,8,dominate monster
+bard,8,feeblemind
+bard,8,glibness
+bard,8,mind blank
+bard,8,power word stun
+bard,9,foresight
+bard,9,power word heal
+bard,9,power word kill
+bard,9,true polymorph
+cleric,0,guidance
+cleric,0,light
+cleric,0,mending
+cleric,0,resistance
+cleric,0,sacred flame
+cleric,0,spare the dying
+cleric,0,thaumaturgy
+cleric,1,bane
+cleric,1,bless
+cleric,1,command
+cleric,1,create or destroy water
+cleric,1,cure wounds
+cleric,1,detect evil and good
+cleric,1,detect magic
+cleric,1,detect poison and disease
+cleric,1,guiding bolt
+cleric,1,healing word
+cleric,1,inflict wounds
+cleric,1,protection from evil and good
+cleric,1,purify food and drink
+cleric,1,sanctuary
+cleric,1,shield of faith
+cleric,2,aid
+cleric,2,augury
+cleric,2,blindness/deafness
+cleric,2,calm emotions
+cleric,2,continual flame
+cleric,2,enhance ability
+cleric,2,find traps
+cleric,2,gentle repose
+cleric,2,hold person
+cleric,2,lesser restoration
+cleric,2,locate object
+cleric,2,prayer of healing
+cleric,2,protection from poison
+cleric,2,silence
+cleric,2,spiritual weapon
+cleric,2,warding bond
+cleric,2,zone of truth
+cleric,3,animate dead
+cleric,3,beacon of hope
+cleric,3,bestow curse
+cleric,3,clairvoyance
+cleric,3,create food and water
+cleric,3,daylight
+cleric,3,dispel magic
+cleric,3,feign death
+cleric,3,glyph of warding
+cleric,3,magic circle
+cleric,3,mass healing word
+cleric,3,meld into stone
+cleric,3,protection from energy
+cleric,3,remove curse
+cleric,3,revivify
+cleric,3,sending
+cleric,3,speak with dead
+cleric,3,spirit guardians
+cleric,3,tongues
+cleric,3,water walk
+cleric,4,banishment
+cleric,4,control water
+cleric,4,death ward
+cleric,4,divination
+cleric,4,freedom of movement
+cleric,4,guardian of faith
+cleric,4,locate creature
+cleric,4,stone shape
+cleric,5,commune
+cleric,5,contagion
+cleric,5,dispel evil and good
+cleric,5,flame strike
+cleric,5,geas
+cleric,5,greater restoration
+cleric,5,hallow
+cleric,5,insect plague
+cleric,5,legend lore
+cleric,5,mass cure wounds
+cleric,5,planar binding
+cleric,5,raise dead
+cleric,5,scrying
+cleric,6,blade barrier
+cleric,6,create undead
+cleric,6,find the path
+cleric,6,forbiddance
+cleric,6,harm
+cleric,6,heal
+cleric,6,heroes' feast
+cleric,6,planar ally
+cleric,6,true seeing
+cleric,6,word of recall
+cleric,7,conjure celestial
+cleric,7,divine word
+cleric,7,etherealness
+cleric,7,fire storm
+cleric,7,plane shift
+cleric,7,regenerate
+cleric,7,resurrection
+cleric,7,symbol
+cleric,8,antimagic field
+cleric,8,control weather
+cleric,8,earthquake
+cleric,8,holy aura
+cleric,9,astral projection
+cleric,9,gate
+cleric,9,mass heal
+cleric,9,true resurrection
+druid,0,druidcraft
+druid,0,guidance
+druid,0,mending
+druid,0,poison spray
+druid,0,produce flame
+druid,0,resistance
+druid,0,shillelagh
+druid,0,thorn whip
+druid,1,animal friendship
+druid,1,charm person
+druid,1,create or destroy water
+druid,1,cure wounds
+druid,1,detect magic
+druid,1,detect poison and disease
+druid,1,entangle
+druid,1,faerie fire
+druid,1,fog cloud
+druid,1,goodberry
+druid,1,healing word
+druid,1,jump
+druid,1,longstrider
+druid,1,purify food and drink
+druid,1,speak with animals
+druid,1,thunderwave
+druid,2,animal messenger
+druid,2,barkskin
+druid,2,beast sense
+druid,2,darkvision
+druid,2,enhance ability
+druid,2,find traps
+druid,2,flame blade
+druid,2,flaming sphere
+druid,2,gust of wind
+druid,2,heat metal
+druid,2,hold perosn
+druid,2,lesser restoration
+druid,2,locate animals or plants
+druid,2,locate object
+druid,2,moonbeam
+druid,2,pass without trace
+druid,2,protection from poison
+druid,2,spike growth
+druid,3,call lightning
+druid,3,conjure animals
+druid,3,daylight
+druid,3,dispel magic
+druid,3,feign death
+druid,3,meld into stone
+druid,3,plant growth
+druid,3,protection from energy
+druid,3,sleet storm
+druid,3,speak with plants
+druid,3,water breathing
+druid,3,water walk
+druid,3,wind wall
+druid,4,blight
+druid,4,confusion
+druid,4,conjure minor elementals
+druid,4,conjure woodland beings
+druid,4,control water
+druid,4,dominate beast
+druid,4,freedom of movement
+druid,4,giant insect
+druid,4,grasping vine
+druid,4,hallucinatory terrain
+druid,4,ice storm
+druid,4,locate creature
+druid,4,polymorph
+druid,4,stone shape
+druid,4,stoneskin
+druid,4,wall of fire
+druid,5,antilife shell
+druid,5,awaken
+druid,5,commune with nature
+druid,5,conjure elemental
+druid,5,contagion
+druid,5,geas
+druid,5,greater restoration
+druid,5,insect plague
+druid,5,mass cure wounds
+druid,5,planar binding
+druid,5,reincarnate
+druid,5,scrying
+druid,5,tree stride
+druid,5,wall of stone
+druid,6,conjure fey
+druid,6,find the path
+druid,6,heal
+druid,6,heroes' feast
+druid,6,move earth
+druid,6,sunbeam
+druid,6,transport via plants
+druid,6,wall of thorns
+druid,6,wind walk
+druid,7,fire storm
+druid,7,mirage arcane
+druid,7,plane shift
+druid,7,regenerate
+druid,7,reverse gravity
+druid,8,animal shapes
+druid,8,antipathy/sympathy
+druid,8,control weather
+druid,8,earthquake
+druid,8,feeblemind
+druid,8,sunburst
+druid,8,tsunami
+druid,9,foresight
+druid,9,shapechange
+druid,9,storm of vengeance
+druid,9,true resurrection
+paladin,1,bless
+paladin,1,command
+paladin,1,compelled duel
+paladin,1,cure wounds
+paladin,1,detect evil and good
+paladin,1,detect magic
+paladin,1,detect poison and disease
+paladin,1,divine favor
+paladin,1,heroism
+paladin,1,protection from evil and good
+paladin,1,purify food and drink
+paladin,1,searing smite
+paladin,1,shield of faith
+paladin,1,thunderous smite
+paladin,1,wrathful smite
+paladin,2,aid
+paladin,2,branding smite
+paladin,2,find steed
+paladin,2,lesser restoration
+paladin,2,locate object
+paladin,2,magic weapon
+paladin,2,protection from poison
+paladin,2,zone of truth
+paladin,3,aura of vitality
+paladin,3,blinding smite
+paladin,3,create food and water
+paladin,3,crusader's mantle
+paladin,3,daylight
+paladin,3,dispel magic
+paladin,3,elemental weapon
+paladin,3,magic circle
+paladin,3,remove curse
+paladin,3,revivify
+paladin,4,aura of life
+paladin,4,aura of purity
+paladin,4,banishment
+paladin,4,death ward
+paladin,4,locate creature
+paladin,4,staggering smite
+paladin,5,banishing smite
+paladin,5,circle of power
+paladin,5,destructive smite
+paladin,5,dispel evil and good
+paladin,5,geas
+paladin,5,raise dead
+ranger,1,alarm
+ranger,1,animal friendship
+ranger,1,cure wounds
+ranger,1,detect magic
+ranger,1,detect poison and disease
+ranger,1,ensnaring strike
+ranger,1,fog cloud
+ranger,1,goodberry
+ranger,1,hail of thorns
+ranger,1,hunter's mark
+ranger,1,jump
+ranger,1,longstrider
+ranger,1,speak with animals
+ranger,2,animal messenger
+ranger,2,barkskin
+ranger,2,beast sense
+ranger,2,cardon of arrows
+ranger,2,darkvision
+ranger,2,find traps
+ranger,2,lesser restoration
+ranger,2,locate animals or plants
+ranger,2,locate object
+ranger,2,pass without trace
+ranger,2,protection from poison
+ranger,2,silence
+ranger,2,spike growth
+ranger,3,conjure animals
+ranger,3,conjure barrage
+ranger,3,daylight
+ranger,3,lightning arrows
+ranger,3,nondetection
+ranger,3,plant growth
+ranger,3,protection from energy
+ranger,3,speak with plants
+ranger,3,water breathing
+ranger,3,water walk
+ranger,3,wind wall
+ranger,4,conjure woodland beings
+ranger,4,freedom of movement
+ranger,4,grasping vine
+ranger,4,locate creature
+ranger,4,stoneskin
+ranger,5,commune with nature
+ranger,5,conjure volley
+ranger,5,swift quiver
+ranger,5,tree stride
+sorcerer,0,acid splash
+sorcerer,0,blade ward
+sorcerer,0,chill touch
+sorcerer,0,dancing lights
+sorcerer,0,fire bolt
+sorcerer,0,friends
+sorcerer,0,light
+sorcerer,0,mage hand
+sorcerer,0,mending
+sorcerer,0,message
+sorcerer,0,minor illusion
+sorcerer,0,poison spray
+sorcerer,0,prestidigitation
+sorcerer,0,ray of frost
+sorcerer,0,shocking grasp
+sorcerer,0,true strike
+sorcerer,1,burning hands
+sorcerer,1,charm person
+sorcerer,1,chromatic orb
+sorcerer,1,color spray
+sorcerer,1,comprehend languages
+sorcerer,1,detect magic
+sorcerer,1,disguise self
+sorcerer,1,expeditious retreat
+sorcerer,1,false life
+sorcerer,1,feather fall
+sorcerer,1,fog cloud
+sorcerer,1,jump
+sorcerer,1,mage armor
+sorcerer,1,magic missile
+sorcerer,1,ray of sickness
+sorcerer,1,shield
+sorcerer,1,silent image
+sorcerer,1,sleep
+sorcerer,1,thunderwave
+sorcerer,1,witch bolt
+sorcerer,2,alter self
+sorcerer,2,blindness/deafness
+sorcerer,2,blur
+sorcerer,2,cloud of daggers
+sorcerer,2,crown of madness
+sorcerer,2,darkness
+sorcerer,2,darkvision
+sorcerer,2,detect thoughts
+sorcerer,2,enhance ability
+sorcerer,2,enlarge/reduce
+sorcerer,2,gust of wind
+sorcerer,2,hold person
+sorcerer,2,invisibility
+sorcerer,2,knock
+sorcerer,2,levitate
+sorcerer,2,mirror image
+sorcerer,2,misty step
+sorcerer,2,phantasmal force
+sorcerer,2,scorching ray
+sorcerer,2,see invisibility
+sorcerer,2,shatter
+sorcerer,2,spider climb
+sorcerer,2,suggestion
+sorcerer,2,web
+sorcerer,3,blink
+sorcerer,3,clairvoyance
+sorcerer,3,counterspell
+sorcerer,3,daylight
+sorcerer,3,dispel magic
+sorcerer,3,fear
+sorcerer,3,fireball
+sorcerer,3,fly
+sorcerer,3,gaseous form
+sorcerer,3,haste
+sorcerer,3,hypnotic pattern
+sorcerer,3,lightning bolt
+sorcerer,3,major image
+sorcerer,3,protection from energy
+sorcerer,3,sleet storm
+sorcerer,3,slow
+sorcerer,3,stinking cloud
+sorcerer,3,tongues
+sorcerer,3,water breathing
+sorcerer,3,water walk
+sorcerer,4,banishment
+sorcerer,4,blight
+sorcerer,4,confusion
+sorcerer,4,dimension door
+sorcerer,4,dominate beast
+sorcerer,4,greater invisibility
+sorcerer,4,ice storm
+sorcerer,4,polymorph
+sorcerer,4,stoneskin
+sorcerer,4,wall of fire
+sorcerer,5,animate objects
+sorcerer,5,cloudkill
+sorcerer,5,cone of cold
+sorcerer,5,creation
+sorcerer,5,dominate person
+sorcerer,5,hold monster
+sorcerer,5,insect plague
+sorcerer,5,seeming
+sorcerer,5,telekinesis
+sorcerer,5,teleportation circle
+sorcerer,5,wall of stone
+sorcerer,6,arcane gate
+sorcerer,6,chain of lightning
+sorcerer,6,circle of death
+sorcerer,6,disintegrate
+sorcerer,6,eyebite
+sorcerer,6,globe of invulnerability
+sorcerer,6,mass suggestion
+sorcerer,6,move earth
+sorcerer,6,sunbeam
+sorcerer,6,true seeing
+sorcerer,7,delayed blast fireball
+sorcerer,7,etherealness
+sorcerer,7,finger of death
+sorcerer,7,fire storm
+sorcerer,7,plane shift
+sorcerer,7,prismatic spray
+sorcerer,7,reverse gravity
+sorcerer,7,teleport
+sorcerer,8,dominate monster
+sorcerer,8,earthquake
+sorcerer,8,incendiary cloud
+sorcerer,8,power word stun
+sorcerer,8,sunburst
+sorcerer,9,gate
+sorcerer,9,meteor swarm
+sorcerer,9,power word kill
+sorcerer,9,time stop
+sorcerer,9,wish
+warlock,0,blade ward
+warlock,0,chill touch
+warlock,0,eldritch blast
+warlock,0,friends
+warlock,0,mage hand
+warlock,0,minor illusion
+warlock,0,poison spray
+warlock,0,prestidigitation
+warlock,0,true strike
+warlock,1,armor of agathys
+warlock,1,arms of hadar
+warlock,1,charm person
+warlock,1,comprehend languages
+warlock,1,expeditious retreat
+warlock,1,hellish rebuke
+warlock,1,hex
+warlock,1,illusory script
+warlock,1,protection from evil and good
+warlock,1,unseen servant
+warlock,1,witch bolt
+warlock,2,cloud of daggers
+warlock,2,crown of madness
+warlock,2,darkness
+warlock,2,enthrall
+warlock,2,hold person
+warlock,2,invisibility
+warlock,2,mirror image
+warlock,2,misty step
+warlock,2,ray of enfeeblement
+warlock,2,shatter
+warlock,2,spider climb
+warlock,2,suggestion
+warlock,3,counterspell
+warlock,3,dispel magic
+warlock,3,fear
+warlock,3,fly
+warlock,3,gaseous form
+warlock,3,hunger of hadar
+warlock,3,hypnotic pattern
+warlock,3,magic circle
+warlock,3,major image
+warlock,3,remove curse
+warlock,3,tongues
+warlock,3,vampiric touch
+warlock,4,banishment
+warlock,4,blight
+warlock,4,dimension door
+warlock,4,hallucinatory terrain
+warlock,5,contact other plane
+warlock,5,dream
+warlock,5,hold monster
+warlock,5,scrying
+warlock,6,arcane gate
+warlock,6,circle of death
+warlock,6,conjure fey
+warlock,6,create undead
+warlock,6,eyebite
+warlock,6,flesh to stone
+warlock,6,mass suggestion
+warlock,6,true seeing
+warlock,7,etherealness
+warlock,7,finger of death
+warlock,7,forcecage
+warlock,7,plane shift
+warlock,8,demiplane
+warlock,8,dominate monster
+warlock,8,feeblemind
+warlock,8,glibness
+warlock,8,power word stun
+warlock,9,astral projection
+warlock,9,foresight
+warlock,9,imprisonment
+warlock,9,power word kill
+warlock,9,true polymorph
+wizard,0,acid splash
+wizard,0,blade ward
+wizard,0,chill touch
+wizard,0,dancing lights
+wizard,0,fire bolt
+wizard,0,friends
+wizard,0,light
+wizard,0,mage hand
+wizard,0,mending
+wizard,0,message
+wizard,0,minor illusion
+wizard,0,poison spray
+wizard,0,prestidigitation
+wizard,0,ray of frost
+wizard,0,shocking grasp
+wizard,0,true strike
+wizard,1,alarm
+wizard,1,burning hands
+wizard,1,charm person
+wizard,1,chromatic orb
+wizard,1,color spray
+wizard,1,comprehend languages
+wizard,1,detect magic
+wizard,1,disguise self
+wizard,1,expeditious retreat
+wizard,1,false life
+wizard,1,feather fall
+wizard,1,find familiar
+wizard,1,fog cloud 
+wizard,1,grease
+wizard,1,identify
+wizard,1,illusory script
+wizard,1,jump
+wizard,1,longstrider
+wizard,1,mage armor
+wizard,1,magic missle
+wizard,1,protection from evil and good
+wizard,1,ray of sickness
+wizard,1,shield
+wizard,1,silent image
+wizard,1,sleep
+wizard,1,tasha's hideous laughter
+wizard,1,tenser's floating disk
+wizard,1,thunderwave
+wizard,1,unseen servant
+wizard,1,witch bolt
+wizard,2,alter self
+wizard,2,arcane lock
+wizard,2,blindness/deafness
+wizard,2,blur
+wizard,2,cloud of daggers
+wizard,2,continual flame
+wizard,2,crown of madness
+wizard,2,darkness
+wizard,2,darkvision
+wizard,2,detect thoughts
+wizard,2,enlarge/reduce
+wizard,2,flaming sphere
+wizard,2,gentle repose
+wizard,2,gust of wind
+wizard,2,hold person
+wizard,2,invisibility
+wizard,2,knock
+wizard,2,levitate
+wizard,2,locate object
+wizard,2,magic mouth
+wizard,2,magic weapon
+wizard,2,melf's acid arrow
+wizard,2,mirror image
+wizard,2,misty step
+wizard,2,mystul's magic aura
+wizard,2,phantasmal force
+wizard,2,ray of enfeeblement
+wizard,2,rope trick
+wizard,2,scorching ray
+wizard,2,see invisibility
+wizard,2,shatter
+wizard,2,spider climb
+wizard,2,suggestion
+wizard,2,web
+wizard,3,animate dead
+wizard,3,bestoy curse
+wizard,3,blink
+wizard,3,clairvoyance
+wizard,3,counterspell
+wizard,3,dispel magic
+wizard,3,fear
+wizard,3,feign death
+wizard,3,fireball
+wizard,3,fly
+wizard,3,gaseous form
+wizard,3,glyph of warding
+wizard,3,haste
+wizard,3,hypnotic pattern
+wizard,3,leomund's tiny hut
+wizard,3,lightning bolt
+wizard,3,magic circle
+wizard,3,major image
+wizard,3,nondetection
+wizard,3,phantom steed
+wizard,3,protection from energy
+wizard,3,remove curse
+wizard,3,sending
+wizard,3,sleet storm
+wizard,3,slow
+wizard,3,stinking cloud
+wizard,3,tongues
+wizard,3,vampiric touch
+wizard,3,water breathing
+wizard,4,arcane eye
+wizard,4,banishment
+wizard,4,blight
+wizard,4,confusion
+wizard,4,conjure minor elementals
+wizard,4,control water
+wizard,4,dimension door
+wizard,4,evard's black tentacles
+wizard,4,fabricate
+wizard,4,fire shield
+wizard,4,greater invisibility
+wizard,4,hallucinatory terrain
+wizard,4,ice storm
+wizard,4,leomund's secret chest
+wizard,4,locate creature
+wizard,4,mordenkainen's faithful hound
+wizard,4,mordenkainen's private sanctum
+wizard,4,otiluke's resilient sphere
+wizard,4,phantasmal killer
+wizard,4,polymorph
+wizard,4,stone shape
+wizard,4,stoneskin
+wizard,4,wall of fire
+wizard,5,animate objects
+wizard,5,bigby's hand
+wizard,5,cloudkill
+wizard,5,cone of cold
+wizard,5,conjure elemental
+wizard,5,contact other plane
+wizard,5,creation
+wizard,5,dominate person
+wizard,5,dream
+wizard,5,geas
+wizard,5,hold monster
+wizard,5,legend lore
+wizard,5,mislead
+wizard,5,modify memory
+wizard,5,passwall
+wizard,5,planar binding
+wizard,5,rary's telpathic bond
+wizard,5,scrying
+wizard,5,seeming
+wizard,5,telekinesis
+wizard,5,transportation circle
+wizard,5,wall of force
+wizard,5,wall of stone
+wizard,6,arcane gate
+wizard,6,chain lightning
+wizard,6,circle of death
+wizard,6,contingency
+wizard,6,create undead
+wizard,6,disintegrate
+wizard,6,drawmij's instant summons
+wizard,6,eyebite
+wizard,6,flesh to stone
+wizard,6,globe of invulnerability
+wizard,6,guards and wards
+wizard,6,magic jar
+wizard,6,mass suggestion
+wizard,6,move earth
+wizard,6,otiluke's freezing sphere
+wizard,6,otto's irresistible dance
+wizard,6,programmed illusion
+wizard,6,sunbeam
+wizard,6,true seeing
+wizard,6,wall of ice
+wizard,7,delayed blast fireball
+wizard,7,etherealness
+wizard,7,finger of death
+wizard,7,forcecage
+wizard,7,mirage arcane
+wizard,7,mordenkainen's magnificent mansion
+wizard,7,mordenkainen's sword
+wizard,7,plane shift
+wizard,7,prismatic spray
+wizard,7,project image
+wizard,7,reverse gravity
+wizard,7,sequester
+wizard,7,simulacrum
+wizard,7,symbol
+wizard,7,teleport
+wizard,8,antimagic field
+wizard,8,antipathy/sympathy
+wizard,8,clone
+wizard,8,control weather
+wizard,8,demiplane
+wizard,8,dominate monster
+wizard,8,feeblemind
+wizard,8,incendiary cloud
+wizard,8,maze
+wizard,8,mind blank
+wizard,8,power word stun
+wizard,8,sunburst
+wizard,8,telepathy
+wizard,8,trap the soul
+wizard,9,astral projection
+wizard,9,foresight
+wizard,9,gate
+wizard,9,imprisonment
+wizard,9,meteor swarm
+wizard,9,power word kill
+wizard,9,prismatic wall
+wizard,9,shapechange
+wizard,9,time stop
+wizard,9,true polymorph
+wizard,9,weird
+wizard,9,wish
