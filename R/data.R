@@ -1,3 +1,10 @@
+#' Armor information
+#' 
+#' All of the information about DND 5e armor
+#' 
+#' @format A data.frame with a whole bunch of variables
+"armor"
+
 #' Gear information
 #' 
 #' All of the information about DND 5e gear
