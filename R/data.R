@@ -14,12 +14,26 @@
 
 
 
+#' Melee weapon details
+#' 
+#' All of the information about DND 5e melee weapons
+#' 
+#' @format A data.frame with a whole bunch of variables
+"melee_weapons"
+
 #' Monsters details
 #' 
 #' All of the information about DND 5e monsters.
 #' 
 #' @format A data.frame with a whole bunch of variables
 "monsters"
+
+#' Ranged weapon details
+#' 
+#' All of the information about DND 5e ranged weapons
+#' 
+#' @format A data.frame with a whole bunch of variables
+"ranged_weapons"
 
 #' Spell information
 #' 
