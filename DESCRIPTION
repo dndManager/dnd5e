@@ -1,11 +1,15 @@
-Package: dnd4e
-Title: What the Package Does (one line, title case)
-Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Package: dnd5e
+Title: D&D 5e data
+Version: 0.1
+Authors@R: person("Jarad", "Niemi", email = "niemi@iastate.edu", role = c("aut", "cre"))
+Description: Contains data and functions for D&D 5e. The data include equipment (armor, gear, weapons), monsters, and spells. The functions help the Dungeon Master organize the information needed for a particular campaign or encounter.
 Depends:
-    R (>= 3.2.5)
-License: What license is it under?
+    R (>= 3.0)
+Suggests:
+    rvest,
+    dplyr,
+    readr
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 5.0.1
