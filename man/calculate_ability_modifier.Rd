@@ -14,10 +14,13 @@ An integer
 }
 \description{
 Ability modifier is ability score minus 10 divided by two 
-and rounded toward zero. The maximum ability modifier is 10.
+and round down.
 }
 \examples{
 ability_modifier(1:30) 
 
+}
+\references{
+page 13 in player handbook
 }
 

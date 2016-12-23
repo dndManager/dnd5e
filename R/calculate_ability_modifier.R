@@ -1,10 +1,11 @@
 #' Calculate ability modifier
 #' 
 #' Ability modifier is ability score minus 10 divided by two 
-#' and rounded toward zero. The maximum ability modifier is 10. 
+#' and round down.
 #' 
 #' @param ability_score: a positive integer
 #' @return An integer
+#' @references page 13 in player handbook
 #' @export
 #' @examples 
 #' ability_modifier(1:30) 
