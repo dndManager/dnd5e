@@ -2,6 +2,7 @@
 #' 
 #' @param n The number ability scores to roll (default=6). 
 #' @return A numeric vector of ability scores
+#' @export
 #' @examples 
 #' roll_ability_scores()
 #' hist(roll_ability_scores(1e5), seq(2.5,20.5,by=1))
