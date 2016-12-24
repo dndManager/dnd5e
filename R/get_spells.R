@@ -2,6 +2,7 @@
 #' 
 #' Get spells by classes, levels, schools, etc
 #' 
+#' @param name a character vector of spell names
 #' @param class a character vector of classes
 #' @param level an integer vector of levels
 #' @param school a character vector of schools
@@ -9,14 +10,24 @@
 #' @import dplyr
 #' @export
 #' @examples 
-#' get_spells(class = c("druid"), level = 1)
+#' get_spells(name = "tasha's hideous laughter")
+#' get_spells(class = "druid", level = 0:2)
 #' 
-get_spells <- function(class=NULL, level=NULL, school=NULL) {
+get_spells <- function(name   = NULL,
+                       class  = NULL, 
+                       level  = NULL, 
+                       school = NULL) {
+  fname   <- name
   fclass  <- class
   flevel  <- level
   fschool <- school
   
   spells <- dnd5e::spells
+  
+  if (!is.null(fname)) {
+    spells <- spells %>%
+      filter(tolower(name) %in% tolower(fname))
+  }
   
   if (!is.null(fclass)) {
     df_classes <- tolower(spells$classes)
