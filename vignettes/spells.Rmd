@@ -1,0 +1,23 @@
+---
+title: "Spells"
+author: "Jarad Niemi"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_document
+vignette: >
+  %\VignetteIndexEntry{Spells}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, echo=FALSE, message=FALSE}
+library(dplyr)
+```
+
+```{r, echo=FALSE, results='asis'}
+spells <- dnd5e::spells %>%
+  select(name) %>%
+  mutate(link=paste0(name,".html"))
+
+cat(paste0("- [",spells$name,"](",spells$link,")"), 
+    sep="\n\n") # need html/markdown line return
+```
