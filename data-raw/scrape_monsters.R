@@ -10,13 +10,9 @@ url <- read_html(paste0(base_url,"/compendium/dnd5e/Monsters%20by%20Name#content
 tmp <- html_nodes(x = url, css = ".pagecontent a") %>%
   html_attr("href")
 
-monsters <- data_frame(url = paste0(base_url,tmp)) %>%
-  rowwise %>%
-  do(extract_content(.$url)) %>%
-  mutate(name = monster_name,
-         description = monster_description) %>%
-  tidyr::spread(key, value) %>%
-  select(-Category)
+monsters <- plyr::ddply(data_frame(url = paste0(base_url,tmp)), "url", function(d) {
+  extract_content(d$url)
+}, .inform=TRUE)
 
 monsters %>%
   readr::write_csv("monsters.csv")
