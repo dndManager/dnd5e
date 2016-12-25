@@ -11,7 +11,9 @@ monsters <- monsters %>%
   
   # Fix challenge rating
   mutate(challenge_rating = as.numeric(plyr::revalue(challenge_rating,
-                                            c("1/2"=0.5, "1/4"=0.25, "1/8"=0.125))))
+                                                     c("1/2"=0.5, 
+                                                       "1/4"=0.25, 
+                                                       "1/8"=0.125))))
   
 devtools::use_data(monsters, overwrite = TRUE)
 
