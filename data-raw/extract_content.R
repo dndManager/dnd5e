@@ -12,10 +12,10 @@ monster_urls <- data_frame(url = paste0(base_url,tmp))
 
 extract_content <- function(url) {
   link <- read_html(url)
-  monster_name <- html_node(x = link, css = ".page-title") %>%
+  name <- html_node(x = link, css = ".page-title") %>%
     html_text
   
-  monster_description <- html_node(x = link, css = ".pagecontent") %>%
+  description <- html_node(x = link, css = ".pagecontent") %>%
     html_text
   
   tab <- html_node(x = link, css = "table") %>%
@@ -24,7 +24,9 @@ extract_content <- function(url) {
            value = X2) %>%
     select(key, value) %>%
     filter(key != " ") %>%
-    filter(value != "+ Add New Attribute") 
+    filter(value != "+ Add New Attribute")  %>%
+  tidyr::spread(key, value) %>%
+  select(-Category)
   
   return(tab)
 }
