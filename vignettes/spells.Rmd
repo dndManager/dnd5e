@@ -1,6 +1,6 @@
 ---
 title: "Spells"
-author: "Jarad Niemi"
+author: ""
 date: "`r Sys.Date()`"
 output: rmarkdown::html_document
 vignette: >
