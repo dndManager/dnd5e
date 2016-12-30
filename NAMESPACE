@@ -3,4 +3,5 @@
 export(calculate_ability_modifier)
 export(get_spells)
 export(roll_ability_scores)
+export(roll_dice)
 import(dplyr)
