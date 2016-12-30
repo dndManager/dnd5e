@@ -1,6 +1,6 @@
 #' Get certain spells
 #' 
-#' Get spells by classes, levels, schools, etc
+#' Get spells by name, classes, levels, schools, etc
 #' 
 #' @param name a character vector of spell names
 #' @param class a character vector of classes

@@ -4,9 +4,11 @@
 \alias{get_spells}
 \title{Get certain spells}
 \usage{
-get_spells(class = NULL, level = NULL, school = NULL)
+get_spells(name = NULL, class = NULL, level = NULL, school = NULL)
 }
 \arguments{
+\item{name}{a character vector of spell names}
+
 \item{class}{a character vector of classes}
 
 \item{level}{an integer vector of levels}
@@ -17,10 +19,11 @@ get_spells(class = NULL, level = NULL, school = NULL)
 data.frame of spells
 }
 \description{
-Get spells by classes, levels, schools, etc
+Get spells by name, classes, levels, schools, etc
 }
 \examples{
-get_spells(class = c("druid"), level = 1)
+get_spells(name = "tasha's hideous laughter")
+get_spells(class = "druid", level = 0:2)
 
 }
 
