@@ -26,4 +26,3 @@ get_spells(name = "tasha's hideous laughter")
 get_spells(class = "druid", level = 0:2)
 
 }
-

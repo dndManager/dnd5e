@@ -12,4 +12,3 @@ ranged_weapons
 All of the information about DND 5e ranged weapons
 }
 \keyword{datasets}
-

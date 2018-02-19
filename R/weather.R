@@ -1,6 +1,8 @@
 #' Weather
 #' 
 #' @return A data.frame with the weather
+#' @export
+#' @export
 #' @examples 
 #' weather()
 #' 

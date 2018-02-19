@@ -12,4 +12,3 @@ melee_weapons
 All of the information about DND 5e melee weapons
 }
 \keyword{datasets}
-

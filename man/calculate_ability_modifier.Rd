@@ -23,4 +23,3 @@ ability_modifier(1:30)
 \references{
 page 13 in player handbook
 }
-

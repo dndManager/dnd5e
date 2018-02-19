@@ -12,4 +12,3 @@ monsters
 All of the information about DND 5e monsters.
 }
 \keyword{datasets}
-

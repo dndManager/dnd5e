@@ -12,4 +12,3 @@ spells
 All of the information about DND 5e spells
 }
 \keyword{datasets}
-

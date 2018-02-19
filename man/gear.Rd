@@ -12,4 +12,3 @@ gear
 All of the information about DND 5e gear
 }
 \keyword{datasets}
-

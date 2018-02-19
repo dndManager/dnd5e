@@ -12,4 +12,3 @@ armor
 All of the information about DND 5e armor
 }
 \keyword{datasets}
-

@@ -20,4 +20,3 @@ roll_ability_scores()
 hist(roll_ability_scores(1e5), seq(2.5,20.5,by=1))
 
 }
-
