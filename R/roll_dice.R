@@ -16,7 +16,8 @@
 #' roll_dice(d20=6)
 #' roll_dice(d4=2,d6=3,collapse=TRUE)
 #' 
-roll_dice <- function(d4=NULL,d6=NULL,d8=NULL,d10=NULL,d20=NULL,d100=NULL,
+roll_dice <- function(d4=NULL,d6=NULL,d8=NULL,d10=NULL,
+                      d12=NULL,d20=NULL,d100=NULL,
                       collapse = FALSE) {
   require(dplyr, quietly = TRUE)
   
