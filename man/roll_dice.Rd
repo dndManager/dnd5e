@@ -5,7 +5,7 @@
 \title{Roll dice}
 \usage{
 roll_dice(d4 = NULL, d6 = NULL, d8 = NULL, d10 = NULL, d20 = NULL,
-  d100 = NULL)
+  d100 = NULL, collapse = FALSE)
 }
 \arguments{
 \item{d4}{A positive integer indicating the number of d4 to roll}
@@ -16,15 +16,19 @@ roll_dice(d4 = NULL, d6 = NULL, d8 = NULL, d10 = NULL, d20 = NULL,
 
 \item{d10}{A positive integer indicating the number of d10 to roll}
 
+\item{d20}{A positive integer indicating the number of d20 to roll}
+
 \item{d100}{A positive integer indicating the number of d100 to roll}
 
-\item{d12}{A positive integer indicating the number of d20 to roll}
+\item{collapse}{Logical (FALSE) indicating whether to sum by die type}
+
+\item{d12}{A positive integer indicating the number of d12 to roll}
 }
 \description{
 Allows you to roll any combination of dice
 }
 \examples{
-roll_dice(d4=2)
-roll_dice(d4=2,d6=3)
+roll_dice(d20=6)
+roll_dice(d4=2,d6=3,collapse=TRUE)
 
 }
