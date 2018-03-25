@@ -13,7 +13,7 @@ roll_attack(to_hit, to_damage, type = "normal", ...)
 
 \item{type}{normal, advantage, or disadvantage}
 
-\item{...}{dice to roll, passed to \link{\code{roll_dice}}}
+\item{...}{dice to roll, passed to \code{\link{roll_dice}}}
 }
 \value{
 attack and damage roll are printed

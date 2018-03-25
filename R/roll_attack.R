@@ -5,7 +5,7 @@
 #' @param to_hit amount to add to the d20 attack roll
 #' @param to_damage amount to add to the damage roll
 #' @param type normal, advantage, or disadvantage
-#' @param ... dice to roll, passed to \link{\code{roll_dice}}
+#' @param ... dice to roll, passed to \code{\link{roll_dice}}
 #' @return attack and damage roll are printed
 #' @export
 #' 
