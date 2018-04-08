@@ -23,36 +23,16 @@ roll_dice <- function(d4=NULL,d6=NULL,d8=NULL,d10=NULL,
   
   d <- data.frame(die=NULL,result=NULL)
   
-  if (!is.null(d4))
-    d <- rbind(d, data.frame(die = "d4", 
-                             result = sample(4, size=d4, replace=TRUE)))
-  
-  if (!is.null(d6))
-    d <- rbind(d, data.frame(die = "d6", 
-                             result = sample(6, size=d6, replace=TRUE)))
-  
-  if (!is.null(d8))
-    d <- rbind(d, data.frame(die = "d8", 
-                             result = sample(8, size=d8, replace=TRUE)))
-  
-  if (!is.null(d10))
-    d <- rbind(d, data.frame(die = "d10", 
-                             result = sample(10, size=d10, replace=TRUE)))
-  
-  if (!is.null(d12))
-    d <- rbind(d, data.frame(die = "d12", 
-                             result = sample(10, size=d12, replace=TRUE)))
-  
-  if (!is.null(d20))
-    d <- rbind(d, data.frame(die = "d20", 
-                             result = sample(20, size=d20, replace=TRUE)))
-  
-  if (!is.null(d100))
-    d <- rbind(d, data.frame(die = "d100", 
-                             result = sample(100, size=d100, replace=TRUE)))
+  if (!is.null( d4 )) d <- rbind(d, data.frame(die = "d4",   result = d4(  d4  )))
+  if (!is.null( d6 )) d <- rbind(d, data.frame(die = "d6",   result = d6(  d6  )))
+  if (!is.null( d8 )) d <- rbind(d, data.frame(die = "d8",   result = d8(  d8  )))
+  if (!is.null( d10)) d <- rbind(d, data.frame(die = "d10",  result = d10( d10 )))
+  if (!is.null( d12)) d <- rbind(d, data.frame(die = "d12",  result = d12( d12 )))
+  if (!is.null( d20)) d <- rbind(d, data.frame(die = "d20",  result = d20( d20 )))
+  if (!is.null(d100)) d <- rbind(d, data.frame(die = "d100", result = d100(d100)))
   
   if (collapse)
     d <- d %>% group_by(die) %>% summarize(result=sum(result)) %>% ungroup
   
-  return(d %>% arrange(die, result))
+  return(d %>% arrange(die))
 }

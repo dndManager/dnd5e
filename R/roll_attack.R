@@ -10,9 +10,9 @@
 #' @export
 #' 
 roll_attack <- function(to_hit, to_damage, type="normal",...) {
-  if (type == "normal")       attack_roll = sample(20, 1)
-  if (type == "advantage")    attack_roll = max(sample(20, 2, replace=TRUE))
-  if (type == "disadvantage") attack_roll = min(sample(20, 2, replace=TRUE))
+  if (type == "normal")       attack_roll = d20(1)
+  if (type == "advantage")    attack_roll = max(d20(2))
+  if (type == "disadvantage") attack_roll = min(d20(2))
   
   if (attack_roll == 1) {
     return(data.frame(
