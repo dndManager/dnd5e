@@ -4,8 +4,8 @@
 \alias{roll_dice}
 \title{Roll dice}
 \usage{
-roll_dice(d4 = NULL, d6 = NULL, d8 = NULL, d10 = NULL, d12 = NULL,
-  d20 = NULL, d100 = NULL, collapse = FALSE)
+roll_dice(d4 = NULL, d6 = NULL, d8 = NULL, d10 = NULL,
+  d12 = NULL, d20 = NULL, d100 = NULL, collapse = FALSE)
 }
 \arguments{
 \item{d4}{A positive integer indicating the number of d4 to roll}

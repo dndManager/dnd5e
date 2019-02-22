@@ -1,7 +1,7 @@
 Package: dnd5e
 Title: D&D 5e data
-Version: 0.5
-Authors@R: person("Jarad", "Niemi", email = "niemi@iastate.edu", role = c("aut", "cre"))
+Version: 0.5.1
+Authors@R: person("Jarad", "Niemi", email = "jaradniemi@gmail.com", role = c("aut", "cre"))
 Description: Contains data and functions for D&D 5e. The data include equipment (armor, gear, weapons), monsters, and spells. The functions help the Dungeon Master organize the information needed for a particular campaign or encounter.
 Depends:
     R (>= 3.0)
@@ -14,5 +14,5 @@ Suggests:
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.0.1
+RoxygenNote: 6.1.1
 VignetteBuilder: knitr
