@@ -7,12 +7,16 @@
 #' @param n number of creatures to 
 #' @return numeric vector of hit points
 #' @export
+#' @examples
+#' roll_hp("2d4+1")
+#' roll_hp("4d10+12", 10)
 #' 
-hp <- function(hp, n = 1) {
+#' 
+roll_hp <- function(hp, n = 1) {
   tmp <- as.numeric(unlist(strsplit(strsplit(hp, "d")[[1]], "+", fixed=TRUE)))
   hps <- numeric(n)
   for (i in 1:n) {
     hps[i] <- sum(sample.int(tmp[2], size = tmp[1], replace=TRUE))+tmp[3]
   }
-  hps
+  as.integer(hps)
 }
