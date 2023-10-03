@@ -4,7 +4,9 @@
 \name{armor}
 \alias{armor}
 \title{Armor information}
-\format{A data.frame with a whole bunch of variables}
+\format{
+A data.frame with a whole bunch of variables
+}
 \usage{
 armor
 }

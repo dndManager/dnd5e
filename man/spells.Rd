@@ -4,7 +4,9 @@
 \name{spells}
 \alias{spells}
 \title{Spell information}
-\format{A data.frame with a whole bunch of variables}
+\format{
+A data.frame with a whole bunch of variables
+}
 \usage{
 spells
 }

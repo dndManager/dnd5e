@@ -4,7 +4,9 @@
 \name{ranged_weapons}
 \alias{ranged_weapons}
 \title{Ranged weapon details}
-\format{A data.frame with a whole bunch of variables}
+\format{
+A data.frame with a whole bunch of variables
+}
 \usage{
 ranged_weapons
 }

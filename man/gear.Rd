@@ -4,7 +4,9 @@
 \name{gear}
 \alias{gear}
 \title{Gear information}
-\format{A data.frame with a whole bunch of variables}
+\format{
+A data.frame with a whole bunch of variables
+}
 \usage{
 gear
 }

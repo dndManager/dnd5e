@@ -4,7 +4,9 @@
 \name{monsters}
 \alias{monsters}
 \title{Monsters details}
-\format{A data.frame with a whole bunch of variables}
+\format{
+A data.frame with a whole bunch of variables
+}
 \usage{
 monsters
 }
