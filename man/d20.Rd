@@ -35,19 +35,19 @@ Roll some dice
 }
 \section{Functions}{
 \itemize{
-\item \code{d4}: Roll n d4 dice
+\item \code{d4()}: Roll n d4 dice
 
-\item \code{d6}: Roll n d6 dice
+\item \code{d6()}: Roll n d6 dice
 
-\item \code{d8}: Roll n d8 dice
+\item \code{d8()}: Roll n d8 dice
 
-\item \code{d10}: Roll n d10 dice
+\item \code{d10()}: Roll n d10 dice
 
-\item \code{d12}: Roll n d12 dice
+\item \code{d12()}: Roll n d12 dice
 
-\item \code{d100}: Roll n d100 dice
+\item \code{d100()}: Roll n d100 dice
+
 }}
-
 \examples{
 d20(n=2)
 
